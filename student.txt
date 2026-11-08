@@ -1,0 +1,5 @@
+Student name: Saptangsu Basu
+Student number: 759740
+Student class: IT1B
+GitHub Repository: https://github.com/basuSapt18/SaptangsuBasuWebMarkup
+GitHub Pages URL: https://YOUR-USERNAME.github.io/stilpunt/

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Saptangsu Basu">
+	<meta name="description" content="Try bigger text, a dark theme or high contrast colours in a live preview, and learn how to change text size on your browser, iPhone or Android phone.">
+	<meta name="keywords" content="display settings,text size,dark theme,high contrast,accessibility">
+	<title>Display settings</title>
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Lexend:wght@600&amp;display=swap">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="top">
+	<header>
+		<a class="logo" href="index.html"><img src="img/logo.png" width="36" height="36" alt="Stilpunt logo: a speech bubble with three amber dots" title="Stilpunt logo">stilpunt</a>
+		<nav aria-label="Main menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiet-places.html">Quiet places</a></li>
+				<li><a href="sign-practice.html">Sign practice</a></li>
+				<li><a href="transcribe-tools.html">Transcribe tools</a></li>
+				<li><a href="display-settings.html" class="current" aria-current="page">Display settings</a></li>
+				<li><a href="contact.html" class="button-nav">Add a quiet spot</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="first">
+			<p class="pill">Display settings</p>
+			<h1>Make it comfortable for your eyes</h1>
+			<p>Try different text sizes and colours in the preview below. Reading live captions for a long time is easier when the screen suits you.</p>
+		</section>
+
+		<section>
+			<h2>Live preview</h2>
+			<input class="choice" type="radio" name="size" id="size-s">
+			<input class="choice" type="radio" name="size" id="size-m" checked>
+			<input class="choice" type="radio" name="size" id="size-l">
+			<input class="choice" type="radio" name="theme" id="theme-light" checked>
+			<input class="choice" type="radio" name="theme" id="theme-dark">
+			<input class="choice" type="radio" name="theme" id="theme-contrast">
+			<p class="sizes"><strong>Text size:</strong>
+				<label class="pick" for="size-s">Small</label>
+				<label class="pick" for="size-m">Normal</label>
+				<label class="pick" for="size-l">Large</label>
+			</p>
+			<p class="themes"><strong>Colour theme:</strong>
+				<label class="pick" for="theme-light">Light</label>
+				<label class="pick" for="theme-dark">Dark</label>
+				<label class="pick" for="theme-contrast">High contrast</label>
+			</p>
+			<article class="preview">
+				<h3>Hi! I&rsquo;m hard of hearing.</h3>
+				<p>Please face me when you speak, and speak clearly. You can also type what you want to say on my phone.</p>
+				<p><a href="quiet-places.html">Find a quiet place nearby</a></p>
+			</article>
+		</section>
+
+		<section>
+			<figure>
+				<img src="img/display-settings.jpg" width="800" height="500" alt="Illustration: three sliders with amber handles" title="Illustration">
+				<figcaption>Sliders for text size and colour.</figcaption>
+			</figure>
+			<h2>Change it for every website</h2>
+			<ul>
+				<li><strong>Browser:</strong> press <em>Ctrl</em> and <em>+</em> (or <em>Cmd</em> and <em>+</em> on a Mac) to make text bigger.</li>
+				<li><strong>iPhone:</strong> Settings, Accessibility, Display &amp; Text Size.</li>
+				<li><strong>Android:</strong> Settings, Accessibility, Font size and display size.</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<section class="footer-about">
+			<h2>Stilpunt&trade;</h2>
+			<p>A calm place to communicate, for deaf and hard-of-hearing people in the Netherlands.</p>
+		</section>
+		<nav class="footer-links" aria-label="Explore">
+			<h3>Explore</h3>
+			<ul>
+				<li><a href="quiet-places.html">Quiet places</a></li>
+				<li><a href="sign-practice.html">Sign practice</a></li>
+				<li><a href="transcribe-tools.html">Transcribe tools</a></li>
+			</ul>
+		</nav>
+		<nav class="footer-links" aria-label="Help">
+			<h3>Help</h3>
+			<ul>
+				<li><a href="display-settings.html">Display settings</a></li>
+				<li><a href="contact.html">Add a quiet spot</a></li>
+				<li><a href="index.html">Back to home</a></li>
+			</ul>
+		</nav>
+		<p class="small footer-bottom">&copy; 2026 Stilpunt&trade; &middot; Student project by Saptangsu Basu, Inholland &middot; Made with &hearts; in the Netherlands</p>
+	</footer>
+	<span id="cookies-closed"></span>
+	<aside id="cookies">
+		<p>Stilpunt uses only one small cookie to remember your choices. No tracking, no ads.</p>
+		<p><a href="#cookies-closed">Okay, close this message</a></p>
+	</aside>
+</body>
+</html>
